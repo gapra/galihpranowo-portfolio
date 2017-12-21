@@ -545,6 +545,12 @@ p.copyright {
   body.overflow-y {
     overflow-y: inherit;
   }
+  .gp-header-menu {
+    margin-left: 20px;
+  }
+  .gp-header-link a:last-child {
+    margin-right: 0;
+  }
   .gp-intro h4.hello {
     position: relative;
     z-index: 3;
