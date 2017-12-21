@@ -35,7 +35,7 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 999999;
   background: #fff;
 }
 .gp-preloader svg#preloader {
