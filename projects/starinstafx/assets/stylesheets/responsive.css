@@ -268,10 +268,10 @@
   .m-menu {
     display: block;
     float: left;
-    margin-top: 12px;
-    margin-right: 12px;
-    width: 55px;
-    height: 55px;
+    margin-top: 18px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
     background: #861329;
     padding: 8px;
     border-radius: 8px;
@@ -287,8 +287,8 @@
   }
 
   header .logo {
-    width: 140px;
-    margin-top: 22px;
+    width: 110px;
+    margin-top: 26px;
   }
 
   .navigation .btn-login {
@@ -303,7 +303,7 @@
     width: 40px;
     height: 40px;
     margin-right: 0;
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
   .navigation .btn-login .text {
@@ -376,11 +376,11 @@
   }
 
   .carousel-item .caption-num .text-box h3 {
-    font-size: 34px;
+    font-size: 25px;
   }
 
   .carousel-item .caption-num .text-box h2 {
-    font-size: 53px;
+    font-size: 40px;
   }
 
   .carousel-item .caption-num .text-box p {
@@ -394,5 +394,63 @@
 
   .main-slider {
     height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-slider .carousel-inner {
+    height: 360px;
+  }
+
+  .carousel-item .caption-num .text-box p {
+    font-size: 16px;
+  }
+
+  .open-account .text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .open-account .act {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .open-account .act .btn-icon {
+    padding: 15px 20px;
+  }
+
+  .icons-menu {
+    padding: 30px 0;
+  }
+
+  .icons-menu .icon-link {
+    width: 84px;
+    margin: 6px 4px;
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+
+  .icons-menu .icon-link .image {
+    height: 50px;
+  }
+
+  .platform-list .item {
+    width: 130px;
+    margin: 10px 5px;
+  }
+
+  .platform-list .item .text {
+    font-size: 12px;
+  }
+
+  .section-testimoni .testi-item {
+    margin: 20px 10px;
+  }
+
+  .sosmed-list a {
+    margin: 5px 2px;
   }
 }

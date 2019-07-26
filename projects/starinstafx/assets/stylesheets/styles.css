@@ -374,11 +374,11 @@ header .navigation {
   font-weight: 600;
 }
 
-.rate-container .rate-item:nth-of-type(2) {
+.rate-container .rate-item.withdraw {
   background: #9a0f29;
 }
 
-.rate-container .rate-item:nth-of-type(n+3) {
+.rate-container .rate-item.stock {
   background: #7e1226;
 }
 
