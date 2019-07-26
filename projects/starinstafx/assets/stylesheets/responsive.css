@@ -157,9 +157,8 @@
   }
 
   .tab-formmenu .tab-term {
-    width: 50%;
-    float: left;
-    margin: 0;
+    width: 600px;
+    margin: 20px auto 0;
     padding: 0 15px;
   }
 

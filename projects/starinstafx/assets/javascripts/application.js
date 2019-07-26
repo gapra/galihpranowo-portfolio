@@ -5,11 +5,6 @@ $(function() {
   });
 
   if ($(window).width() < 768) {
-    /*var rateItemW = 0;
-    $('.rate-item').each(function(i) {
-      rateItemW += $(this).outerWidth();
-      $('.rate-wrap').width(rateItemW+5);
-    });*/
     $('.rate-wrap').slick({
       speed: 5000,
       autoplay: true,

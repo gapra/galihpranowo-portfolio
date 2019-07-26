@@ -487,6 +487,14 @@ header .navigation {
   padding-left: 20px;
 }
 
+.tab-formmenu .tab-term .card-header .icon-collapse {
+  float: right;
+}
+
+.tab-formmenu .tab-term .card-header.collapsed .icon-collapse {
+  transform: rotate(180deg);
+}
+
 .section-odd {
   background: #b41b38;
   padding: 30px 0;
