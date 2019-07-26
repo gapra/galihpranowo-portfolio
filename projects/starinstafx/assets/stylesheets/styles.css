@@ -296,6 +296,7 @@ header .navigation {
 
 .btn-red:hover {
   background: #a71631;
+  color: #fff;
 }
 
 .btn-icon {
@@ -744,4 +745,20 @@ footer h4 {
   display: inline-block;
   margin: 5px;
   color: #fff;
+}
+
+#login_popup .form-group {
+  margin-bottom: 10px;
+}
+
+#login_popup .form-group label {
+  margin-bottom: 4px;
+}
+
+#login_popup .form-group .btn-red {
+  width: 100%;
+}
+
+#login_popup .help-block {
+  margin-bottom: 0;
 }
