@@ -1,0 +1,398 @@
+@media (min-width: 480px) {
+  .icons-menu .icon-link {
+    width: 112px;
+    margin: 10px 5px;
+    padding: 10px 5px;
+  }
+
+  .open-account .text {
+    font-size: 14px;
+  }
+
+  .call-to-act .cp-icon {
+    width: 24%;
+    float: left;
+    margin: 0;
+  }
+
+  .call-to-act .cp-col {
+    width: 38%;
+    float: left;
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+  .call-to-act .cp-col h3 {
+    font-size: 24px;
+  }
+
+  .platform-list .item {
+    width: 110px;
+    min-height: 135px;
+    margin: 10px 5px;
+    vertical-align: middle;
+  }
+
+  .platform-list .item .icon {
+    height: 70px;
+  }
+
+  .platform-list .item .text {
+    line-height: normal;
+  }
+
+  .section-testimoni .testi-item {
+    display: inline-block;
+    width: 230px;
+    margin: 15px 10px;
+  }
+
+  .section-testimoni {
+    text-align: center;
+  }
+
+  .sosmed-foot-link {
+    margin-top: 40px;
+  }
+
+  .footer-bottom .foot-link {
+    float: right;
+    margin-bottom: 0;
+  }
+
+  .footer-bottom .copyright {
+    float: left;
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .icons-menu .container {
+    width: 700px;
+  }
+
+  .icons-menu .icon-link {
+    width: 125px;
+    margin: 10px;
+    padding: 10px 8px;
+  }
+
+  .operational-wrap .text-col {
+    font-size: 16px;
+  }
+
+  .platform-list .item {
+    width: 150px;
+    min-height: auto;
+  }
+
+  .section-testimoni .testi-item {
+    width: 320px;
+  }
+
+  footer {
+    text-align: left;
+  }
+
+  .section-about {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .open-account .container {
+    width: 600px;
+    padding: 10px;
+  }
+
+  .open-account {
+    background: #fff;
+    padding: 10px 0;
+  }
+
+  .open-account .text {
+    font-size: 16px;
+  }
+
+  .open-account .act {
+    margin-top: 14px;
+  }
+
+  .current-exchange .rate-label {
+    width: 215px;
+    padding-top: 24px;
+    padding-left: 20px;
+  }
+
+  .current-exchange .container {
+    padding-left: 215px;
+  }
+
+  .rate-container {
+    margin: 0;
+  }
+
+  .rate-wrap {
+    display: table;
+  }
+
+  .rate-container .rate-item {
+    float: none;
+    display: table-cell;
+    width: 1%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .tab-formmenu:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .tab-formmenu .tab-menu {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+  }
+
+  .tab-formmenu .tab-term {
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  .tab-formmenu {
+    background: #464646;
+    padding: 30px 0;
+  }
+
+  .tab-formmenu .tab-content {
+    background: #fff;
+    margin: 0;
+    color: #464646;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .tab-formmenu .nav-tabs {
+    margin: 0;
+  }
+
+  .operational-wrap {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .operational-wrap .clock-col {
+    width: 130px;
+    padding-right: 30px;
+  }
+
+  .call-to-act .cp-col {
+    font-size: 18px;
+  }
+
+  .call-to-act .cp-col h3 {
+    font-size: 28px;
+  }
+
+  .call-to-act {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .section-testimoni .testi-item {
+    width: 380px;
+  }
+
+  .icon-foot-item .fa {
+    width: 30px;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .icon-foot-item {
+    padding-left: 30px;
+  }
+
+  .sosmed-foot-link {
+    margin-top: 28px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .icons-menu .container {
+    width: 960px;
+  }
+
+  .sosmed-foot-link {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .icons-menu .container {
+    width: 1140px;
+  }
+
+  .icons-menu .icon-link {
+    margin: 10px 5px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  header .logo {
+    width: 200px;
+    margin-top: 14px;
+  }
+
+  .menu li > a {
+    padding: 0 8px;
+  }
+
+  .menu li .submenu-toggle {
+    padding: 0 8px;
+  }
+
+  .menu li .submenu li a {
+    padding: 16px 12px;
+  }
+
+  .navigation .btn-login {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 991px) {
+  .m-menu {
+    display: block;
+    float: left;
+    margin-top: 12px;
+    margin-right: 12px;
+    width: 55px;
+    height: 55px;
+    background: #861329;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .m-menu img {
+    width: 100%;
+  }
+
+  .m-menu .icon {
+    display: block;
+  }
+
+  header .logo {
+    width: 140px;
+    margin-top: 22px;
+  }
+
+  .navigation .btn-login {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    border: 0;
+  }
+
+  .navigation .btn-login .icon-user-cog {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  .navigation .btn-login .text {
+    float: left;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+
+  header .navigation {
+    float: none;
+  }
+
+  .navigation .menu {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+
+  .menu li {
+    display: block;
+    line-height: normal;
+  }
+
+  .menu li > a, .menu li .submenu-toggle {
+    background: #861329;
+    padding: 22px 15px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  }
+
+  .submenu {
+    position: relative;
+    width: 100%;
+  }
+
+  .submenu li {
+    padding-bottom: 0;
+  }
+
+  .submenu li > a {
+    padding: 18px 15px;
+    padding-left: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+  }
+
+  .main-slider .carousel-item .button-group {
+    display: none;
+  }
+
+  .main-slider .carousel-item .caption-group {
+    top: 40px;
+    right: 0;
+    padding: 0 15px;
+  }
+
+  .carousel-item .caption-num .num-box {
+    left: 15px;
+    min-width: 70px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 6em;
+  }
+
+  .main-slider .carousel-item .caption-num {
+    padding-left: 85px;
+  }
+
+  .carousel-item .caption-num .text-box h3 {
+    font-size: 34px;
+  }
+
+  .carousel-item .caption-num .text-box h2 {
+    font-size: 53px;
+  }
+
+  .carousel-item .caption-num .text-box p {
+    font-size: 18px;
+    text-align: right !important;
+  }
+
+  .main-slider .carousel-inner {
+    height: 400px;
+  }
+
+  .main-slider {
+    height: auto;
+  }
+}
