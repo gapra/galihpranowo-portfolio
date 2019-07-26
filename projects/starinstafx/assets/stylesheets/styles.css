@@ -477,6 +477,7 @@ header .navigation {
 .tab-formmenu .tab-term .card-header {
   font-weight: 600;
   color: #464646;
+  text-align: left;
 }
 
 .tab-formmenu .tab-term ol {
