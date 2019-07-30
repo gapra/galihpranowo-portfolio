@@ -18,8 +18,10 @@ a[href^="tel"] {
 }
 
 header {
-  position: relative;
-  z-index: 99;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
   height: 80px;
   background: #b41b38;
   color: #fff;
