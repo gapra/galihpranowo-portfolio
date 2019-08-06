@@ -22,7 +22,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1020;
-  height: 80px;
+  height: 120px;
   background: #b41b38;
   color: #fff;
 }
@@ -772,4 +772,275 @@ footer h4 {
 
 #login_popup .help-block {
   margin-bottom: 0;
+}
+
+.top-navigation {
+  position: relative;
+  background: #111;
+  height: 40px;
+  color: #fff;
+}
+
+.top-navigation [class^="menu-"] {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-navigation [class^="menu-"] > li {
+  position: relative;
+  display: inline-block;
+  font-size: 11px;
+}
+
+.top-navigation [class^="menu-"] > li a {
+  display: block;
+  margin: 0 10px;
+  color: #fff;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.top-navigation [class^="menu-"] .sub-menu {
+  display: none;
+}
+
+.top-navigation [class^="menu-"] > li a .icon {
+  width: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.top-navigation [class^="menu-"] > li:first-child a {
+  margin-left: 0;
+}
+
+.top-navigation [class^="menu-"] > li:last-child a {
+  margin-right: 0;
+}
+
+.top-navigation .menu-left {
+  float: left;
+}
+
+.top-navigation .menu-right {
+  float: right;
+  margin-right: 20px;
+}
+
+.top-navigation .menu-right li:first-child {
+  margin-right: 10px;
+}
+
+.top-navigation .btn-plus {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #464646;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+
+.top-navigation [class^="menu-"] > li:hover .sub-menu {
+  position: absolute;
+  left: 0;
+  z-index: 9;
+  display: block;
+  min-width: 150px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #e3e3e3;
+  color: #111;
+}
+
+.top-navigation [class^="menu-"] > li:hover .sub-menu li a {
+  color: #111;
+  margin: 0;
+  padding: 10px 15px;
+  line-height: normal;
+}
+
+.top-navigation [class^="menu-"] > li:hover .sub-menu li a:hover {
+  background: #b7b7b7;
+  text-decoration: none;
+}
+
+.open-account {
+  text-align: center;
+}
+
+.open-account h1 {
+  margin: 10px 0 20px;
+  color: #a11731;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.open-account p {
+  font-size: 20px;
+}
+
+.open-account .btn-group {
+  display: block;
+  margin-top: 30px;
+}
+
+.open-account .btn-group:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.open-account .btn-group .btn-act {
+  width: 33.33%;
+  float: left;
+  padding: 0 30px;
+}
+
+.open-account .btn-group .btn-act .btn-red {
+  display: block;
+  margin: 0 15px;
+  padding: 0 15px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.open-account .btn-group .btn-act .btn-red:hover {
+  text-decoration: none;
+}
+
+.open-account .btn-group .btn-act .btn-red img {
+  width: 40px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.open-account .btn-group .btn-act .info {
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+.main-slider .carousel-item .caption-group.slide-2 {
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.main-slider .carousel-item .caption-group .slide-top {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.main-slider .carousel-item .caption-group .slide-top h1 {
+  font-size: 5em;
+}
+
+.main-slider .carousel-item .caption-group .slide-top h4 {
+  font-size: 2.2em;
+}
+
+.main-slider .carousel-item .caption-group .slide-top .text-green {
+  color: #3df50b;
+  font-weight: 600;
+}
+
+.main-slider .carousel-item .image.slide-2 {
+  position: relative;
+}
+
+.main-slider .carousel-item .image.slide-2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,.4);
+}
+
+.btn-slide-group {
+  font-size: 16px;
+}
+
+.btn-slide-group .btn {
+  width: 210px;
+  font-size: 20px;
+}
+
+.btn-orange {
+  background: #ff9600;
+  color: #fff;
+}
+
+.btn-slide-group p {
+  margin-bottom: 10px;
+}
+
+.btn-slide-group .caption-rate .btn {
+  width: 130px;
+  background: #02a2e0;
+  border: 0;
+}
+
+.btn-slide-group .caption-rate p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.btn-slide-group .caption-rate p > span {
+  display: inline-block;
+  width: 130px;
+  margin-right: 15px;
+  text-align: right;
+}
+
+.main-slider .carousel-item .caption-group.slide-3 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.main-slider .carousel-item .caption-group.slide-3 h1 {
+  margin: 0 0 20px;
+  font-size: 3.75em;
+  font-weight: 600;
+  text-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+.main-slider .carousel-item .caption-group.slide-3 h4 {
+  padding: 0 70px;
+  font-size: 2.5em;
+}
+
+.main-slider .carousel-item .caption-group.slide-3 .label-group {
+  margin-top: 20px;
+  width: 800px;
+  margin: 30px auto 0;
+}
+
+.main-slider .carousel-item .caption-group.slide-3 .label-group label {
+  margin: 10px;
+  background: #fff;
+  color: #005faf;
+  padding: 5px 10px;
+  font-size: 2em;
+}
+
+.main-slider .carousel-item .caption-group.slide-3 .label-group label img {
+  height: 30px;
+  margin-right: 15px;
 }
